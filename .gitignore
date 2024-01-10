@@ -1,0 +1,34 @@
+# Conf
+.env
+config.json
+api/server/frontend*
+
+# Docker
+etc/certbot/conf/*
+
+# Data
+data/
+
+#python
+__pycache__
+.pytest_cache
+*.egg-info
+venv
+dist
+build
+bin/
+lib/
+lib64*
+pyenv.cfg
+
+~
+# MiSC Apps
+.DS_Store
+.local
+.cache
+.api
+.vscode
+
+text-generation-inference
+test.py
+cache.txt
